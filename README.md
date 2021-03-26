@@ -1,18 +1,11 @@
-<h4 align="center">
-  <img alt="common readme" src="common-readme.png">
-</h4>
+***GeekBrains! Образовательный портал***<br>
+Курс: Базовый курс JavaScript<br>
+Студент: Куликов А.Б.<br>
 
-***Module consumers!*** Frustrated by each module having its own wildly
-unique README format? Annoyed by modules that omit critical sections like
-**API** or **Examples**? Stuck scrolling through API docs before you *even know
-what the module does*?
-
-***Module authors!*** Tired of making up your readme format every time you
-write it? Do you just want consistent readmes pre-populated with your module's
-name, description and license without worrying about the structure every time?
+В репозитории размещены выполненные задания к урокам курса.<br>
+Отдельная ветка - отдельный урок.
 
 ---
-
-What if there was a common format for the benefit of producers and consumers?
-
-A *common readme* for node modules.
+С собранием домашних заданий можно ознакомиться по ссылке:
+- [`Сборник ДЗ`](https://kkulikoff.github.io/js-l1-kulikov.github.io/)
+---
