@@ -1,6 +1,5 @@
-let goods = ['Камера','Видеорегистратор','Контроллер'];
-let price = [5600, 7800, 25000];
-let basket = [goods, price];
+let basket = [['Камера','Видеорегистратор','Контроллер'], 
+                [5600, 7800, 25000]];
 
 function countBasketPrice() {
     let acc = 0;
