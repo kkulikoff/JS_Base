@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .goods {
+            display: flex;
+        }
+
+        .prod-1,
+        .prod-2,
+        .prod-3 {
+            position: relative;
+            height: 200px;
+            width: 200px;
+            background-color: burlywood;
+        }
+
+        .btn {
+            position: absolute;
+            bottom: 5px;
+            left: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="catalog"></div>
+    <div id="basket" class="basket"></div>
+    <button onclick="clearBasket()">Очистить корзину</button>
+    <script src="script-5.3-4.js"></script>
+</body>
+
+</html>
