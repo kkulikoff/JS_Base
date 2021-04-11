@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="catalog"></div>
+    <div id="basket" class="basket"></div>
+    <button onclick="basket.clearBasket()">Очистить корзину</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <p><img id="largeImg" src="img/camera/1.jpg" alt="Large image"></p>
+
+            <ul id="thumbs">
+              <li>
+                <a href="img/camera/1.jpg" title="Image 2"><img src="img/camera/1.jpg"></a>
+              </li>
+              <li>
+                <a href="img/camera/2.jpg" title="Image 3"><img src="img/camera/2.jpg"></a>
+              </li>
+              <li>
+                <a href="img/camera/3.jpg" title="Image 4"><img src="img/camera/3.jpg"></a>
+              </li>
+              <li>
+                <a href="img/camera/4.png" title="Image 5"><img src="img/camera/4.png"></a>
+              </li>
+              <li>
+                <a href="img/camera/5.jpg" title="Image 6"><img src="img/camera/5.jpg"></a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <script src="script-1.js"></script>
+    <script src="script-2.js"></script>
+</body>
+
+</html>
